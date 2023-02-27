@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share_my_profile</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    
+            
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+
+
+            <div class="Profile">
+
+                <div class="image">
+                  <img src="PP don.jpg" alt="Prince-images">
+                </div>
+
+                   <div class="name"> 
+                  <h2>Prince Bhardwaj</h2>
+                </div>
+
+                 <div class="designation"> 
+                  <p>Frontend Devloper</p>
+                </div>
+
+
+                <div class="btton-grp">
+
+                
+
+                    <button onclick="openmodal()" class="share-profile">
+
+                    
+                      <i class="fa-solid fa-share"></i>
+                       Share My Profile
+
+                    </button>
+
+                  
+
+
+                     <button class="follow" onclick="change()">
+                      <p> Follow me</p>
+                     </button>
+
+                </div>
+
+            </div>
+
+            
+
+            <!-- modal-codde -->
+
+         <div class="modal" >
+            <div class="modal-header">
+                  <h1>Share My Profile</h1>
+
+                  <div onclick = "closemodal()" class="close"><i class="fa-solid fa-xmark"></i></div>
+
+            </div>
+
+            <div>
+                   <h3>Share this via</h3>
+                   
+
+                   <div class="icon-container">
+
+                          <a href="https://www.facebook.com/princesharma.prince.5099" class="icon" id="facebook" target="blank">
+                            <i class="fa-brands fa-square-facebook"></i>
+                          </a>
+
+                          <a href= "https://www.linkedin.com/in/prince-bhardwaj-6738631a9" class="icon" id="telegram" target="blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                          </a>
+
+                          <a href="#" class="icon" id="whatsapp"  target="blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                          </a>
+
+                          <a href="https://instagram.com/__princesharma?igshid=NTE5MzUyOTU=" class="icon" id="instagram"  target="blank">
+                            <i class="fa-brands fa-instagram"></i>
+                          </a>
+
+                          <a href="#" class="icon" id="twitter"  target="blank">
+                            <i class="fa-brands fa-twitter"></i>
+                          </a>
+
+                   </div>
+            </div>
+                
+
+         </div>
+
+         <!-- overlow -->
+
+<div class="overlay" onclick="closemodal()"></div>
+
+
+
+      
+
+<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
